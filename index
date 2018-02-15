@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My First Webpage!</title>
+    </head>
+    <body>
+        <h1>Conner Kruger-Morrison</h1>
+        <p>Hello World</p>
+        <p>This is my first web page!</p>
+        <hr />
+        <h1>Mad Max</h1>
+        <h2>The First History Man</h2>
+        <pre>Where must we go,
+we who wander this wasteland,
+in search of our better selves.</pre>
+    </body>
+  </html>
