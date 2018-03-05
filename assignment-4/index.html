@@ -1,29 +1,17 @@
 <!DOCTYPE html>
 
 <html>
-
   <head>
-
     <meta charset="UTF-8">
-
     <title>Course Questionnaire</title>
-
     <style>
-
       * {font-family:arial}
-
       legend {font-size:20px}
-
       img, figure, figcaption, table {text-align:center;font-style:italic;margin:auto}
-
       div {width:32%;display:inline-block;vertical-align:text-top;}
-
       table, td, th {
-
       /* -- Step 16 -- */
-
         border-collapse: collapse;
-
 
 
 
@@ -31,7 +19,6 @@
       }
 
     </style>
-
   </head>
 
 
@@ -39,79 +26,49 @@
   <body>
 
     <header>
-
       <!-- Title Information -->
-
       <img src="https://media-ed-online.github.io/intro-web-dev/img/logonav.png" alt="Media Arts Logo" title="Logo" width="100" height="100" style="float: left;"/>
-
       <h1>Course Questionnaire</h1>
-
       <p>Thank you for your interest in our course, <cite>Intro to Web Design!</cite><br/>
-
         Please continue your registration by filling out these areas:</p>
-
     </header>
 
 
-
     <main>
-
       <!-- Step 1 -->
-
       <form action="http://www.example.com/register.php" method="get"
 
 
-
       <!-- Part 1: Basic Info -->
-
       <fieldset>
-
         <legend>Contact Details</legend>
-
         <!-- Step 2 (Name) -->
-
         <p>Name:
-
           <input type="First" name="username" id="name-first" placeholder="First" />
-
           <input type="MI" name="username" id="name-middle" placeholder="MI" maxlength="3" size="3"/>
-
           <input type="Last" name="username" id="name-last" placeholder="Last" />
-
         </p>
 
         <!-- Step 3 (E-mail) -->
-
         <p>E-mail:
-
           <input type="email" name="you@email.com" id="username-email" autofocus />
-
         </p>
 
 
 
         <!-- Step 4 (Date) -->
-
         <p>Date of Birth:
-
           <input type="mm/dd/yyyy" name="birthday" id="DOB" placeholder="mm/dd/yyyy" />
-
         </p>
-
 
 
         <!-- Step 5 ("No" Radio) -->
 
         <p>Have you taken a web design course before?</p>
-
             <input id="yes" type="radio" name="prev-course" value="y">
-
               <label for="yes">Yes</label>
-
             <input id="no" type="radio" name="prev-course" value="n">
-
               <label for="no">No</label>
-
       </fieldset>
 
 
@@ -127,63 +84,34 @@
       <!-- Part : Previous Experience -->
 
       <fieldset>
-
         <legend>Previous Experience</legend>
-
         <!-- BROWSERS --><div id="browsers">
-
           <figure>
-
             <img src="./images/browsers.png" alt="Image of a browser" title="Broswer Icon" width="100" height="100" />
-
             <figcaption>Wowsers, Browsers</figcaption>
-
           </figure>
-
           <p>What is your preferred browser?</p>
-
           <p><i>Choose one:</i></p>
-
           <input id="firefox" type="radio" name="pref-browser" value="firefox">
-
             <label for="firefox">Firefox</label>
-
           <br />
-
           <input id="chrome" type="radio" name="pref-browser" value="chrome" checked>
-
             <label for="chrome">Chrome</label>
-
           <br />
-
           <input id="internet explorer" type="radio" name="pref-browser" value="internet explorer">
-
             <label for="internet explorer">Internet Explorer</label>
-
           <br/>
-
           <input id="safari" type="radio" name="pref-browser" value="safari">
-
             <label for="safari">Safari</label>
-
           <br/>
-
           <input id="opera" type="radio" name="pref-browser" value="opera">
-
             <label for="opera">Opera</label>
-
           <br/>
-
           <input id="microsoft edge" type="radio" name="pref-browser" value="microsoft edge">
-
             <label for="microsoft edge">Microsoft Edge</label>
-
           <br/>
-
           <input id="other" type="radio" name="pref-browser" value="other">
-
             <label for="other">Other</label>
-
           <!-- Step 6 -->
 
 
@@ -197,39 +125,24 @@
           <!-- Step 7 -->
 
           <img src="./images/languages.png" alt="an image of the languages pic" title="Languages Pic" width="100" height="100" caption="Chatting in Code" />
-
           <p>What languages are you familiar with?</p>
-
           <p><i>Choose one or more:</i></p>
 
             <!-- Step 8 -->
 
             <input type="checkbox" name="language" value="HTML" /> HTML
-
             <br/>
-
             <input type="checkbox" name="language" value="CSS" /> CSS
-
             <br/>
-
             <input type="checkbox" name="language" value="javascript" /> JavaScript
-
             <br/>
-
             <input type="checkbox" name="language" value="PHP" /> PHP
-
             <br/>
-
             <input type="checkbox" name="language" value="ruby" /> Ruby
-
             <br/>
-
             <input type="checkbox" name="language" value="python" /> Python
-
             <br/>
-
             <input type="checkbox" name="language" value="other" /> Other
-
         </div>
 
 
@@ -239,29 +152,21 @@
           <!-- Step 9 -->
 
           <img src="./images/experience.png" alt="an image of the experience pic" title="Experience Pic" width="100" height="100" caption="In the Know?" />
-
           <p>Introduce yourself!</p>
 
 
 
           <p>“Hi! I'm a
-
             <select name="experience-level">
 
             <!-- Step 10 -->
 
             <option value="guppy">Guppy</option>
-
             <option value="beginner">Beginner</option>
-
             <option value="novice" selected>Novice</option>
-
             <option value="journeyman">Journeyman</option>
-
             <option value="expert">Expert</option>
-
             <option value="wizard">Wizard</option>
-
             </select>
 
             web designer or developer.”</p>
@@ -273,9 +178,7 @@
             <!-- Step 11 -->
 
             <input type="numbers" name="experince-time"
-
             id="experince-time" placeholder="##" min="0" max="12" size="2"/>
-
             months studying or working in this field.”</p>
 
 
@@ -283,9 +186,7 @@
           <!-- Step 12 (textarea) -->
 
           <textarea name="comments" id="textarea" cols="30" row="2">I think my most difficult task will be...</textarea>
-
         </div>
-
       </fieldset>
 
 
@@ -303,19 +204,12 @@
       <!-- Steps 13-18 -->
 
       <h3>Offerings and Availability</h3>
-
       <fieldset>
-
         <legend></legend>
-
       <head>
-
         <style>
-
           table, th, td {
-
             border: 2px solid grey;
-
             padding: 5px;
 
           }
@@ -323,71 +217,42 @@
         </style>
 
       </head>
-
       <table>
-
         <tr>
-
           <th></th>
-
           <th scope="col">Spring Semester</th>
-
           <th scope="col">Summer Session</th>
-
           <th scope="col">Autumn Sesester</th>
-
           <th scope="col">Winter Session</th>
-
           <th scope="col">Special Session</th>
-
         </tr>
-
         <tr>
-
           <th scope="row">Times (PM)</th>
-
           <td>M, W 12:00-2:00</td>
-
           <td>F 5:30-9:30</td>
-
           <td>M, W 12:00-2:00</td>
-
           <td>F 12:00-4:00</td>
-
           <td>TBA</td>
-
         </tr>
-
         <tr>
-
           <th scope="row">Seats Available</th>
-
           <td>12/60</td>
-
           <td>Full</td>
-
           <td>Full</td>
-
           <td>2/60</td>
-
           <td>60/60</td>
-
         </tr>
-
       </table>
-
       <p>
 
         Username:
 
         <input type="text" name="username" id="test-username" required />
-
       </br>
 
         Password:
 
         <input type="text" name="password" id="test-password" required />
-
       </p>
 
 
@@ -403,31 +268,17 @@
         </table>
 
         <p>Yes! Sign me up for weekly e-mail alerts.
-
           <input id="yes" type="checkbox" name="newsletter" value="yes" checked>
-
         </br>
-
         </p>
-
       <form
-
         action="http://www.example.com/subscribe.php"  method="post">
-
           <button>
-
             <img src="./images/reg-button.png" alt="reg button" width="100" height="25" />
-
           </button>
-
       </form>
-
     </main>
-
     <!-- Step 20 -->
-
     <img src="./images/registration-station.png" alt="Registration Station" title="Register Today!" width="500" height="333" />
-
   </body>
-
 </html>
